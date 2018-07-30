@@ -29,7 +29,7 @@ export default new Vuex.Store({
         cache: 'default'
       }
       axios('https://newsapi.org/v2/top-headlines?country=us&apiKey=' + API_KEY , config).then(responde =>{
-        console.log(responde);
+        console.log(responde.data.articles);
         commit('updateNews' , responde.data.articles);
         commit('loadingState' , false);
       })

@@ -1,6 +1,5 @@
 <template>
   <div>
-    <h1>Home Page</h1>
     <app-posts :news='news' :loading='loading'></app-posts>
   </div>
 </template>
