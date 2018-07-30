@@ -1,15 +1,18 @@
 import Vue from "vue";
 import Router from "vue-router";
 import Home from "@/views/Home.vue";
-
+import NavBar from '@/components/NavBar.vue';
+import Vuetify from 'vuetify'
 import axios from 'axios';
-import VueMaterial from 'vue-material'
-import 'vue-material/dist/vue-material.min.css'
-
-Vue.use(Router);
-Vue.use(VueMaterial);
+import 'vuetify/dist/vuetify.min.css';
 
 Vue.prototype.$http = axios;
+
+Vue.use(Router);
+Vue.use(Vuetify);
+
+Vue.component('app-navbar' , NavBar);
+
 
 export default new Router({
   mode: 'history',
