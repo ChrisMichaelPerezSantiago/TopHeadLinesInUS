@@ -15,6 +15,19 @@ npm run serve
 [newsapi](https://newsapi.org)
 
 
+## Frameworks
+
+- Vuejs
+
+## Library
+
+- Vuex
+
+## Theme
+
+[Hugo Themes](https://themes.gohugo.io)
+- COPYRIGHT (C) DONGGEUN,BANG. ALL RIGHTS RESERVED.
+
 **Author**
 -----------------
 Development Lead
