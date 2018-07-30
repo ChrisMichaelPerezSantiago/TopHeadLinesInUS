@@ -25,7 +25,7 @@ npm run serve
 
 ## Theme
 
-[Hugo Themes](https://themes.gohugo.io)
+[Hugo Themes](https://themes.gohugo.io/hugo-hello-programmer-theme/)
 - COPYRIGHT (C) DONGGEUN,BANG. ALL RIGHTS RESERVED.
 
 **Author**
