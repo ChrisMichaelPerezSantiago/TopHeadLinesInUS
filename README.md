@@ -1,4 +1,6 @@
 # Puerto Rico | Top Headlines In US
+Access to US news about all types of content from around the world from different news sources and blogs.
+
 
 ## Build Setup
 
